@@ -1,0 +1,52 @@
+package StarWarsUniverse.StarWars;
+
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.Resource;
+
+public class Weapon {
+	String swProperty;
+	String swURI;
+	Model weapon = ModelFactory.createDefaultModel();
+	Property weaponName = weapon.createProperty(swProperty + "name");
+	Property weaponModel = weapon.createProperty(swProperty + "model");
+	Property weaponType = weapon.createProperty(swProperty + "type");
+	Property weaponCapacity = weapon.createProperty(swProperty + "capacity");
+	Property weaponColor = weapon.createProperty(swProperty + "color");
+	Resource anakinLightsaber;
+	Resource lukeLightsaber;
+	Resource heavyBlasterPistol;
+	Resource bowcaster;
+	Resource defenderSportingBlasterPistol;
+
+	Weapon(String swProperty, String swURI) {
+		this.swProperty = swProperty;
+		this.swURI = swURI;
+		createWeapons();
+	}
+
+	private void createWeapons() {
+
+		this.anakinLightsaber = weapon.createResource(swURI + "anakin_lightsaber");
+		this.anakinLightsaber.addProperty(weaponName, "Anakin's Jedi Lightsaber");
+		this.anakinLightsaber.addProperty(weaponModel, "Anakin");
+		this.anakinLightsaber.addProperty(weaponType, "Lightsaber");
+		this.anakinLightsaber.addProperty(weaponCapacity, "Infinite");
+		this.anakinLightsaber.addProperty(weaponColor, "Blue");
+
+		this.heavyBlasterPistol = weapon.createResource(swURI + "heavy_blaster_pistol");
+		this.heavyBlasterPistol.addProperty(weaponName, "Heavy Blaster Pistol");
+		this.heavyBlasterPistol.addProperty(weaponModel, "Anakin");
+		this.heavyBlasterPistol.addProperty(weaponType, "Lightsaber");
+		this.heavyBlasterPistol.addProperty(weaponCapacity, "Infinite");
+		this.heavyBlasterPistol.addProperty(weaponColor, "Blue");
+		
+		this.lukeLightsaber = weapon.createResource(swURI + "luke_lightsaber");
+		this.lukeLightsaber.addProperty(weaponName, "Luke's Jedi Lightsaber");
+		this.lukeLightsaber.addProperty(weaponModel, "Luke");
+		this.lukeLightsaber.addProperty(weaponType, "Lightsaber");
+		this.lukeLightsaber.addProperty(weaponCapacity, "Infinite");
+		this.lukeLightsaber.addProperty(weaponColor, "Green");
+	}
+}

@@ -1,0 +1,40 @@
+package StarWarsUniverse.StarWars;
+
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.Resource;
+
+public class Weapon {
+	String swProperty;
+	String swURI;
+	Resource anakinLightsaber;
+	Resource lukeLightsaber;
+	Resource heavyBlasterPistol;
+	Resource bowcaster;
+	Resource defenderSportingBlasterPistol;
+
+	Weapon(String swProperty, String swURI) {
+		this.swProperty = swProperty;
+		this.swURI = swURI;
+	}
+
+	Model weapon = ModelFactory.createDefaultModel();
+	Property weaponName = weapon.createProperty(swProperty + "name");
+	Property weaponModel = weapon.createProperty(swProperty + "model");
+	Property weaponType = weapon.createProperty(swProperty + "type");
+	Property weaponCapacity = weapon.createProperty(swProperty + "capacity");
+	Property weaponColor = weapon.createProperty(swProperty + "color");
+
+	private void createWeapons() {
+
+		this.anakinLightsaber = weapon.createResource(swURI + "anakin_lightsaber");
+		this.anakinLightsaber.addProperty(weaponName, "Anakin's Jedi Lightsaber");
+		this.anakinLightsaber.addProperty(weaponModel, "Anakin");
+		this.anakinLightsaber.addProperty(weaponType, "Lightsaber");
+		this.anakinLightsaber.addProperty(weaponCapacity, "Infinite");
+		this.anakinLightsaber.addProperty(weaponColor, "Blue");
+
+		Resource blaster = weapon.createResource(swURI + "lightsaber");
+	}
+}

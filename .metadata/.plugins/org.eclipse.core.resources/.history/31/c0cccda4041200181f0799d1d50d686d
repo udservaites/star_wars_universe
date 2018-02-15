@@ -1,0 +1,103 @@
+package StarWarsUniverse.StarWars;
+
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.Resource;
+
+public class Character {
+	String swProperty;
+	String swURI;
+	
+	Character(String swProperty, String swURI) {
+		this.swProperty = swProperty;
+		this.swURI = swURI;
+	}
+	// Character
+			Model character = ModelFactory.createDefaultModel();
+			// properties
+			Property name = character.createProperty(swProperty + "name");
+			Property height = character.createProperty(swProperty + "height");
+			Property mass = character.createProperty(swProperty + "mass");
+			Property skinColor = character.createProperty(swProperty + "skin_color");
+			Property hairColor = character.createProperty(swProperty + "hair_color");
+			Property born = character.createProperty(swProperty + "born");
+			Property died = character.createProperty(swProperty + "died");
+			Property species = character.createProperty(swProperty + "species");
+
+			// Luke
+			Resource luke = character.createResource(swURI + "luke_skywalker");
+			luke.addProperty(name, "Luke Skywalker");
+			luke.addProperty(height, "1.72 meters");
+			luke.addProperty(mass, "73 kilograms");
+			luke.addProperty(skinColor, "Light");
+			luke.addProperty(hairColor, "Blond");
+			luke.addProperty(born, "19 BBY");
+			luke.addProperty(died, "34 ABY");
+			luke.addProperty(species, "Human");
+
+			Resource han = character.createResource(swURI + "han_solo");
+			han.addProperty(name, "Han Solo");
+			han.addProperty(height, "1.8 meters");
+			han.addProperty(mass, "80 kilograms");
+			han.addProperty(skinColor, "Light");
+			han.addProperty(hairColor, "Brown");
+			han.addProperty(born, "29 BBY");
+			han.addProperty(died, "34 ABY");
+			han.addProperty(species, "Human");
+
+			Resource leia = character.createResource(swURI + "leia_organa");
+			leia.addProperty(name, "Leia Organa");
+			leia.addProperty(height, "1.72 meters");
+			leia.addProperty(mass, "73 kilograms");
+			leia.addProperty(skinColor, "Light");
+			leia.addProperty(hairColor, "Brown");
+			leia.addProperty(born, "19 BBY");
+			leia.addProperty(died, "34 ABY");
+			leia.addProperty(species, "Human");
+
+			Resource chewy = character.createResource(swURI + "chewbacca");
+			chewy.addProperty(name, "Chewbacca");
+			chewy.addProperty(height, "1.72 meters");
+			chewy.addProperty(mass, "73 kilograms");
+			chewy.addProperty(skinColor, "Light");
+			chewy.addProperty(hairColor, "Brown");
+			chewy.addProperty(born, "19 BBY");
+			chewy.addProperty(died, "34 ABY");
+			chewy.addProperty(species, "Wookie");
+
+			Resource c3po = character.createResource(swURI + "C3PO");
+			c3po.addProperty(name, "C-3PO");
+			c3po.addProperty(height, "1.72 meters");
+			c3po.addProperty(mass, "73 kilograms");
+			c3po.addProperty(skinColor, "Gold");
+			c3po.addProperty(hairColor, "");
+			c3po.addProperty(born, "19 BBY");
+			c3po.addProperty(died, "34 ABY");
+			c3po.addProperty(species, "Protocol Android");
+
+			Resource r2d2 = character.createResource(swURI + "R2D2");
+			r2d2.addProperty(name, "R2-D2");
+			r2d2.addProperty(height, "1.72 meters");
+			r2d2.addProperty(mass, "73 kilograms");
+			r2d2.addProperty(skinColor, "White");
+			r2d2.addProperty(hairColor, "");
+			r2d2.addProperty(born, "19 BBY");
+			r2d2.addProperty(died, "34 ABY");
+			r2d2.addProperty(species, "Astromech Android");
+
+			Resource becca = character.createResource(swURI + "becca");
+			becca.addProperty(name, "Serka Bukett");
+			becca.addProperty(height, "1.72 meters");
+			becca.addProperty(mass, "73 kilograms");
+			becca.addProperty(skinColor, "Light");
+			becca.addProperty(hairColor, "Brown");
+			becca.addProperty(born, "19 BBY");
+			becca.addProperty(died, "34 ABY");
+			becca.addProperty(species, "Human");
+
+			character.write(System.out, "TURTLE");
+		
+		
+
+}

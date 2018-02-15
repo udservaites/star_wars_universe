@@ -1,0 +1,88 @@
+2018-02-14 22:44:27,882 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-02-14 22:46:18,430 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\CIS\Web3\Workspace\StarWars\pom.xml
+2018-02-14 22:46:29,070 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: StarWarsUniverse:StarWars:0.0.1-SNAPSHOT @ C:\CIS\Web3\Workspace\StarWars\pom.xml.
+2018-02-14 22:46:31,212 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StarWars/src/main/java
+2018-02-14 22:46:31,227 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StarWars/src/test/java
+2018-02-14 22:46:32,061 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 13 sec
+2018-02-14 22:46:32,863 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:46:32,863 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 22:46:32,863 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:46:32,863 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 22:47:07,509 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:47:07,509 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 22:47:07,509 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:47:07,509 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 22:47:08,530 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:47:08,530 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 22:47:08,561 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:47:08,561 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 22:48:16,401 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:48:16,401 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 22:48:16,416 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:48:16,416 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 22:48:49,214 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:48:49,214 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 22:48:49,214 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:48:49,229 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 22:49:00,323 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:49:00,323 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 22:49:00,339 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:49:00,355 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 22:49:04,865 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:49:04,865 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 22:49:04,865 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:49:04,881 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 22:50:26,716 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: StarWarsUniverse:StarWars:0.0.1-SNAPSHOT @ C:\CIS\Web3\Workspace\StarWars\pom.xml.
+2018-02-14 22:50:31,437 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:50:31,437 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 22:50:31,453 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:50:31,453 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 22:50:33,260 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: StarWarsUniverse:StarWars:0.0.1-SNAPSHOT @ C:\CIS\Web3\Workspace\StarWars\pom.xml.
+2018-02-14 22:50:33,760 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:50:33,807 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 22:50:33,823 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:50:33,823 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 22:50:35,173 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:50:35,173 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 22:50:35,173 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:50:35,173 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 22:53:31,623 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:53:31,623 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 22:53:31,638 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:53:31,638 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 22:59:39,080 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:59:39,080 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 22:59:39,080 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 22:59:39,080 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 23:05:10,087 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:05:10,096 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 23:05:10,105 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:05:10,106 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 23:06:53,150 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:06:53,150 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 23:06:53,151 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:06:53,152 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 23:08:02,625 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:08:02,632 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 23:08:02,641 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:08:02,641 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 23:08:04,760 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:08:04,760 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 23:08:04,766 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:08:04,766 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 23:11:25,720 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:11:25,726 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 23:11:25,732 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:11:25,732 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 23:24:52,947 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:24:52,948 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 23:24:52,950 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:24:52,950 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 23:25:13,598 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:25:13,604 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 23:25:13,610 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:25:13,610 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources
+2018-02-14 23:27:43,328 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:27:43,328 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\main\resources
+2018-02-14 23:27:43,329 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-14 23:27:43,329 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CIS\Web3\Workspace\StarWars\src\test\resources

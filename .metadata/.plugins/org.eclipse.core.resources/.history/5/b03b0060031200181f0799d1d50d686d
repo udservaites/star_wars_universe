@@ -1,0 +1,23 @@
+package StarWarsUniverse.StarWars;
+	import org.apache.jena.rdf.model.Model;
+	import org.apache.jena.rdf.model.ModelFactory;
+	import org.apache.jena.rdf.model.Property;
+	
+public class Character {
+	
+		
+		void createCharacterModel() {
+			Model swCharacter = ModelFactory.createDefaultModel();
+			String swProperty = "http://starwarsuniverse/character/property/";
+			Property name = swCharacter.createProperty(swProperty + "name");
+			Property height = swCharacter.createProperty(swProperty + "height");
+			Property mass = swCharacter.createProperty(swProperty + "mass");
+			Property skinColor = swCharacter.createProperty(swProperty + "skin_color");
+			Property hairColor = swCharacter.createProperty(swProperty + "hair_color");
+			Property born = swCharacter.createProperty(swProperty + "born");
+			Property died = swCharacter.createProperty(swProperty + "died");
+			Property species = swCharacter.createProperty(swProperty + "species");
+		}
+	}
+
+}
